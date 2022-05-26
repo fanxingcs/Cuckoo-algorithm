@@ -1,7 +1,8 @@
 % 布谷鸟算法
-%     nd    需要寻优的参数个数
-%     Lb    鸟窝范围的下限
-%     Ub   鸟窝范围的上限
+%     fun_name 寻优函数
+%     nd       需要寻优的参数个数
+%     Lb       鸟窝范围的下限
+%     Ub       鸟窝范围的上限
 function [bestnest, fmin] = Cuckoo(fun_name, nd, Lb, Ub)
 
     global n;
